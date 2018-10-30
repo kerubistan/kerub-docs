@@ -1,27 +1,22 @@
-# KerubDocs
+# Kerub docs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.6.
+This is an angular-based application to
+ - view the wiki
+ - and the test results presented as evidences
+ - and therefore be more or less a documentation / reference for Kerub
 
-## Development server
+It is an experiment, no one did this before.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Test results
 
-## Code scaffolding
+ - cucumber outputs in JSON format
+ - JUnit reports in XML format
+ - JMH reports again in JSON format
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Documentation
 
-## Build
+ Basically the GitHub MarkDown format from the Kerub wiki git.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Who does the work in the background
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ There is a Jenkins job that collects all test execution results.
