@@ -1,9 +1,31 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 text-left">
+        <h1><span class="glyphicon glyphicon-book"></span> {{title}}
+          <small>{{subTitle}}</small></h1>
+    </div>
   </div>
+  <div class="row">
+
+        <div class="col-md-9">
+            <div class="tabbable">
+                <ul class="nav nav-pills nav-stacked col-md-2">
+                  <li class="active">
+                    <a class="nav-link glyphicon glyphicon-book" data-toggle="tab" href="#wiki"></a>
+                  </li>
+                  <li>
+                    <a class="nav-link glyphicon glyphicon-ok" href="#evidences" data-toggle="tab"></a>
+                  </li>
+                </ul>
+                <div class="tab-content col-md-8">
+                  <div class="tab-pane active" id="wiki"> Wiki </div>
+                  <div class="tab-pane" id="evidences"> Test Evidences </div>
+                </div>
+              </div>
+  </div>
+</div>
+
 </div>
